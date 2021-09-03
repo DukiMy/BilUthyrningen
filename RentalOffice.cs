@@ -6,11 +6,6 @@ class RentalOffice : Program
     public int IdNumber { get; set; }
     public List<Car> cars = new List<Car>();
 
-    public Car GetCars(int i)
-    {
-        return cars[i];
-    }
-
     public void ChooseCar(int idNum)
     {
         for (int i = 0; i < cars.Count; i++)

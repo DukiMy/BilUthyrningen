@@ -6,7 +6,6 @@ using System.Threading;
 class Program
 {
 
-    public static int TotalRevenue { get; set; }
     static List<RentalOffice> rentalOffices = new List<RentalOffice>();
     public Random rand = new Random();
 
